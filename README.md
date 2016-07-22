@@ -1,4 +1,4 @@
-# GeneGeneInteR
+# IndOR
 
 To install and load the package in R
 
