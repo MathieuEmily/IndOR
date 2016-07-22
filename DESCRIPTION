@@ -1,0 +1,10 @@
+Package: IndOR
+Type: Package
+Title: Testing for SNPxSNP Interaction with the IndOR method
+Version: 0.99.0
+Authors@R: c(
+    person("Emily", "Mathieu", email = "mathieu.emily@agrocampus-ouest.fr", role = c("aut","cre"))
+Description: The aim of this package is to propose an implementation of the IndOR statistical method. Such a method aims at detecting SNPxSNP interaction by testing the independence between Odds-Ratio.
+License: GPL (>= 2)
+LazyData: TRUE
+Depends: R (>= 3.3)
