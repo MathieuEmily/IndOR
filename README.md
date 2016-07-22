@@ -14,7 +14,7 @@ Function IndOR takes as input a matrix M, where M is a 9x2 table. The first colu
 
 If you observe the following counts in cases:
 
-AA	Aa	aa
+   AA	Aa	aa
 
 BB	349	299	64
 
@@ -24,7 +24,7 @@ bb	155	133	49
 
 and in controls:
 
-AA	Aa	aa
+   AA	Aa	aa
 
 BB	353	302	65
 
