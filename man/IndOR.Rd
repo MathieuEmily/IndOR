@@ -23,7 +23,6 @@ A list containing the following components:
 \examples{
 }
 \references{
-	M. Emily (2012)IndOR: A new statistical procedure to test for SNP-SNP epistasis in Genome-Wide Association Studies, Statistics In Medicine, Vol. 31, No. 21, pages 2359-2373
 Mathieu Emily (2012) IndOR: A new statistical procedure to test for SNP-SNP epistasis in Genome-Wide Association Studies, Statistics In Medicine, 31(21) :2359-2373\cr
 }
 \seealso{
