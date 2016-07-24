@@ -1,4 +1,4 @@
-getPower <- function(pDisease,pDiseaseBase,type,pA,pB,nInd,ylim=c(0,1),lege,r,ratioCC)
+getPower <- function(pDisease,pDiseaseBase,type,pA,pB,nInd,r,ratioCC)
 {
 	alpha <- pDiseaseBase/(1-pDiseaseBase)
 	pAB <- Theo_P_H0_HWE_LD(pA=pA,pB=pB,r=r)
@@ -10,6 +10,6 @@ getPower <- function(pDisease,pDiseaseBase,type,pA,pB,nInd,ylim=c(0,1),lege,r,ra
 	nCases <- nInd
 	nControls <- nCases*ratioCC
 	TD <- cbind(nCases*pAB_Cases,nControls*pAB_Controls)
-	IndOR <- 1-pchisq(qchisq(0.95,df=4),df=4,ncp=max(0,IndOR(TD)$statistic))
-	return(list(alpha=alpha,theta=theta,IndOR=IndOR))
+	power <- 1-pchisq(qchisq(0.95,df=4),df=4,ncp=max(0,IndOR(TD)$statistic))
+	return(list(alpha=alpha,theta=theta,power=power))
 }
