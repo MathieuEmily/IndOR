@@ -1,4 +1,5 @@
-getPower <- function(pDisease,pDiseaseBase,type,pA,pB,nInd,r,ratioCC)
+getPower <- function(pDisease=0.5,pDiseaseBase=0.45,type=c("N","1L", "ME", "RR","DD","RD","IME",
+                       "I", "T", "Mod","XOR"),pA=0.3,pB=0.3,nInd=1000,ratioCC=0.5)
 {
 	alpha <- pDiseaseBase/(1-pDiseaseBase)
 	pAB <- Theo_P_H0_HWE_LD(pA=pA,pB=pB,r=r)
