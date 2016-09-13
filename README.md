@@ -14,6 +14,13 @@ Function IndOR takes as input a matrix M, where M is a 9x2 table. The first colu
 
 If you observe the following counts in cases:
 
+
+|       |  AA | Aa | aa |
+|------|:-----|:-----|:----|
+| BB	| 349 | 299 | 64 |
+| Bb	| 466	 | 399 | 86 |
+| bb   | 155 | 133 | 49 |
+
    AA	Aa	aa
 
 BB	349	299	64
