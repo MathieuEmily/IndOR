@@ -21,23 +21,13 @@ If you observe the following counts in cases:
 | Bb	| 466	 | 399 | 86 |
 | bb   | 155 | 133 | 49 |
 
-   AA	Aa	aa
-
-BB	349	299	64
-
-Bb	466	399	86
-
-bb	155	133	49
-
 and in controls:
 
-   AA	Aa	aa
-
-BB	353	302	65
-
-Bb	470	403	86
-
-bb	157	134	29
+|       |  AA | Aa | aa |
+|------|:-----|:-----|:----|
+|BB	|353	|302	|65|
+|Bb	|470	|403	|86|
+|bb	|157	|134	|29|
 
 then in R you can build the following contingency table:
 
