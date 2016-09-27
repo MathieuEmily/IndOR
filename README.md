@@ -1,5 +1,7 @@
 # IndOR
+The aim of this package is to propose an implementation of the IndOR statistical method. Such a method aims at detecting SNPxSNP interaction by testing the independence between Odds-Ratio.
 
+## Installation
 To install and load the package in R
 
 ```ruby
@@ -10,7 +12,7 @@ library(IndOR)
 
 Function IndOR takes as input a matrix M, where M is a 9x2 table. The first column is made by counts for the nine genotypes in cases and the second column stores counts for controls.
 
-# Example:
+## Example:
 
 If you observe the following counts in cases:
 
